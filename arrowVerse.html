@@ -1,0 +1,269 @@
+<html>
+<head><title>CW.TV</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header*/
+.header {
+  padding: 30px;
+  text-align: center;
+  background-image:url("crisis.jpg");
+  
+  color:white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:  #306130;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+padding: 5px;
+  text-align: center;
+  background-image:url("green arrow.jpg");
+  #background:#003300;
+  color:white;
+  margin-top: 10px;
+  text-align:left;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.popular{
+padding:0px 2px;
+}
+}
+p:hover{
+color:blue;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+  opacity:0.9;
+}
+
+.sidenav a,.sidenav p {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover,.sidenav p:hover{
+  color: #f1f1f1;
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <p>Project by Ishan Kumar</p>
+<p>Roll no:1902094<br>
+Branch:Btech<br>
+College:(CEC)<br>
+Course:CSE<p>
+<p>Project on ArrowVerse</p>
+<p>language used<br>
+CSS<br>
+Java Script<br>
+HTML</p>
+</div>
+
+<div class="header">
+  <h1>ARROW VERSE</h1>
+  <h6>Brought to you by CW.us</h6>
+</div>
+
+<div class="topnav">
+  <a href="#"onclick="openNav()"> About</a>  
+  <a href="The Flash.html">FLASH</a>
+  <a href="gideon.html">Gideon</a> 
+  <a href="login.html" style="float:right">LOG-IN</a>
+</div>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="row">
+    <div class="leftcolumn">
+	<div class="card">
+	
+	<h1>WELCOME TO THE ARROWVERSE </h1>
+	 <p> The "Arrowverse" is a television franchise that is based on characters that appear in publications by DC Comics. The shared multiverse is akin to the DC universe in their comic books, which has had crossover plot elements, settings, and characters.
+	</p>
+	</div></div>
+	<div class="rightcolumn">
+	<div style="padding:20px;">
+	<img src="crisis.jpg"width="100%"height="20%" align="right">
+	</div></div></div>
+	
+	<h1>ARTICLES</h1>
+    <div class="card">
+      <h2>Gideon</h2>
+      <h5>MAY 29, 2020</h5>
+      <a href="gideon.html">
+	  <img title="click here for full article" src="Gideon1.jpg" width="100%" height="30%">
+	  </a>
+      <p><b>Gideon..</b></p>
+	  <p>Gideon is an interactive artificial consciousness (A.I.) used by Eobard Thawne. She was hidden in the Time Vault inside S.T.A.R. Labs. 
+Though Gideon is used by Eobard, she was created by Barry Allen in the future.[1] In order to manage her operating system, one needs the
+Reverse-Flash ring..</p>
+    </div>
+    <div class="card">
+      <h2>FLASH</h2>
+      <h5>MAY 29, 2020</h5>
+	  <a href="The Flash.html">
+      <img title="click here for full article" src="The Flash.png" width="100%" height="30%">
+	  </a>
+      <p><b>FLASH...</b></p>
+      <p>
+	  The Flash is an American superhero television series developed 
+by Greg Berlanti, Andrew Kreisberg, and Geoff Johns, airing on The CW.
+It is based on the DC Comics character Barry Allen / Flash, a
+ costumed superhero crime-fighter with the power to move at superhuman speeds. 
+It is a spin-off from Arrow, existing in the same fictional universe 
+known as Arrowverse. The series follows Barry Allen, portrayed by Grant Gustin,
+a crime scene investigator who gains super-human speed, which 
+he uses to fight criminals, </p></div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+     <!-- <div class="fakeimg" style="height:100px;">Image</div>
+      --><p>Name:Ishan Kumar<br>
+	  Roll no:1902094<br>
+	  Branch:Btech<br>
+	  College:CEC</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+	  
+       <a class="popular" href="The Flash.html">
+      <img title="click here for full article" src="The Flash.png" width="100%" height="20%">
+	  	  </a>
+	        <a class="popular"href="gideon.html">
+	  <img title="click here for full article" src="Gideon1.jpg" width="100%" height="20%">
+	  </a>
+      <!--<div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    --></div>
+    <div class="card">
+      <h3>Follow US</h3>
+      <a href="https://www.instagram.com/ishan_rajpal/">
+	  <img src="instagram.jpg" height="8%"></a>
+    </div>
+  </div>
+</div>
+
+<div class="footer"><p>Name:Ishan Kumar<br>
+	  Roll no:1902094<br>
+	  Branch:Btech<br>
+	  College:CEC</p>
+  
+</div>
+
+</body>
+</html>
