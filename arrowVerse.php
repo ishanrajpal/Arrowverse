@@ -1,1 +1,1 @@
-<?php header('Location: /arrowVerse.html');?>
+<?php header('Location: /index.html');?>
